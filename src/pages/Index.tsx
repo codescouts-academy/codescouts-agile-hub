@@ -27,7 +27,7 @@ const services = [
     icon: Users,
   },
   {
-    title: "Story - User Stories",
+    title: "Story slicing",
     description:
       "Crea historias de usuario efectivas que capturen las necesidades del usuario final y guíen el desarrollo hacia soluciones de valor real.",
     url: "https://story.codescouts.academy/",
