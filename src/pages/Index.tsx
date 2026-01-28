@@ -5,6 +5,13 @@ import ServiceCard from "@/components/ServiceCard";
 
 const services = [
   {
+    title: "Team health",
+    description:
+      "Evalúa la salud y el bienestar de tu equipo de desarrollo mediante encuestas rápidas y efectivas. Identifica áreas de mejora y fortalezas para optimizar el rendimiento del equipo.",
+    url: "https://team-health.codescouts.academy/",
+    icon: Users,
+  },
+  {
     title: "DoR - Definition of Ready",
     description:
       "Define los requisitos que debe cumplir una historia de usuario antes de ser trabajada. Asegura que el equipo tenga toda la información necesaria.",
@@ -89,7 +96,7 @@ const Index = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 auto-rows-fr"
+            className="flex flex-wrap justify-center items-center gap-6 max-w-6xl mx-auto"
           >
             {services.map((service, index) => (
               <ServiceCard
