@@ -8,7 +8,7 @@ const services = [
     title: "Team health",
     description:
       "Evalúa la salud y el bienestar de tu equipo de desarrollo mediante encuestas rápidas y efectivas. Identifica áreas de mejora y fortalezas para optimizar el rendimiento del equipo.",
-    url: "https://th.codescouts.academy/",
+    url: "https://team-health.codescouts.academy/",
     icon: Users,
   },
   {
